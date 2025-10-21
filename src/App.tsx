@@ -1,9 +1,5 @@
-import './App.css';
-import { carsList } from './cars.const';
+import { Cars } from "./components/Cars";
 
-function App() {
-  console.log(carsList);
-  return <div>Hello here</div>;
-}
+const App = () => <Cars />
 
-export default App;
+export default App
